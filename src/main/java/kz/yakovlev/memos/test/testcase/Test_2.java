@@ -8,7 +8,6 @@ import kz.yakovlev.memos.test.page.PageHome;
 import kz.yakovlev.memos.test.page.PageLogIn;
 import org.junit.After;
 import org.junit.Test;
-
 import static junit.framework.Assert.assertEquals;
 
 /**

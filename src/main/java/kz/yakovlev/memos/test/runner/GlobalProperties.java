@@ -1,7 +1,6 @@
 package kz.yakovlev.memos.test.runner;
 
 import org.openqa.selenium.WebDriver;
-
 import java.util.HashMap;
 import java.util.Map;
 

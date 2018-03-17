@@ -24,11 +24,6 @@ public class MainTestRunner {
         // running all tests
         Result result = jUnitCore.run(computer, AllTests.class);
 
-//        // creating and writing to log file
-//        PrintStream ps = new PrintStream(GlobalProperties.getParameter(GlobalProperties.LOG_FILE_PATH));
-//        RunListener resultListener = new TextListener(ps);
-//        resultListener.testRunFinished(result);
-//
         // writing to console
         RunListener resultListenerConsole = new TextListener(System.out);
         resultListenerConsole.testRunFinished(result);

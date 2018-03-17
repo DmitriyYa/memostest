@@ -1,12 +1,9 @@
 package kz.yakovlev.memos.test.action;
 
 import kz.yakovlev.memos.test.runner.GlobalProperties;
-import kz.yakovlev.memos.test.helpers.TimingUtils;
-import kz.yakovlev.memos.test.page.PageLogIn;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.io.File;
 
