@@ -55,13 +55,13 @@ public class Test_6
 
     @Test
     public void createNewEntry() {
-        Action_CreateNewEntry.createNewEntry(title, description, statusActual);
+        Action_CreateNewEntry.createNewEntry(title, description, statusCandidate);
         TimingUtils.waitSeconds(1);
         if (!PageHome.chBox_Candidate().isSelected()) {
             PageHome.chBox_Candidate().click();
         }
 
-        Action_EditEntry.editEntry(title,"AnyTitle", "AnyDescription",statusCandidate);
+        Action_EditEntry.editEntry(title,"AnyTitle", "AnyDescription",statusActual);
         assertEquals(GenerateDate.getDateInFormat(), PageHome.getTextEntry(GenerateDate.getDateInFormat()));
         assertEquals("AnyTitle", PageHome.getTextEntry("AnyTitle"));
         assertEquals("AnyDescription", PageHome.getTextEntry("AnyDescription"));

@@ -10,7 +10,7 @@ import org.junit.runners.Suite;
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
         TestSuiteRegres.class,
-//        TestSuiteLoad.class
+        TestSuiteLoad.class
 })
 
 public class AllTests {
