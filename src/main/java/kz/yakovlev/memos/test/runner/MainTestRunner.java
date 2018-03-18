@@ -5,7 +5,6 @@ import org.junit.runner.Computer;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 import org.junit.runner.notification.RunListener;
-
 import java.io.*;
 import java.util.Properties;
 
