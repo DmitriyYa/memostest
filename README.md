@@ -1,7 +1,7 @@
 Для запуска тестов, необходимо:
 
 1. Развернуть и запустиь приложение(на машине где будут запускаться тесты): https://github.com/edu-xored/memorise
-2. Установить брайзер GoogleChrome.
+2. Установить брайзер GoogleChrome (версия 65).
 3. Скачать для него драйвер ChromeDriver 2.37(https://sites.google.com/a/chromium.org/chromedriver/downloads) и указать на драйвер путь в config.properties, пример "driver_path=C:\\chromedriver.exe"   
 4. Запустить тесты из IDE IntellijIdea  или собрать и запустить jar файл.
 5. Для повторного запуска тестов необходимо перезапустить приложение. Из консоли остановить jetty и запустить заново mvn jetty:run
